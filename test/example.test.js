@@ -1,7 +1,14 @@
 // IMPORT MODULES under test here:
-import { addUtil, subtractUtil, multiplyUtil, divideUtil } from '../utils.js';
+import { 
+    addUtil, 
+    subtractUtil, 
+    multiplyUtil, 
+    divideUtil 
+} from '../utils.js';
 
 const test = QUnit.test;
+
+///////////////////////////////////////////////////////////////////
 
 //addUtil Tests
 test('it should return 10 when provided with 3 and 7', (expect) => {
@@ -24,6 +31,7 @@ test('it should return -14 when provided with -6 and -8', (expect) => {
     const actual = addUtil(-6, -8);
     expect.equal(actual, expected);
 });
+///////////////////////////////////////////////////////////////////
 
 //subtractUtil tests
 test('it should return 3 when provided with 10 and 7', (expect) => {
@@ -40,6 +48,7 @@ test('it should return 2 when provided with -6 and -8', (expect) => {
     const actual = subtractUtil(-6, -8);
     expect.equal(actual, expected);
 });
+///////////////////////////////////////////////////////////////////
 
 //multiplyUtils tests
 test('it should return 12 when provided with 3 and 4', (expect) => {
@@ -56,6 +65,7 @@ test('it should return -20 when provided with -5 and 4', (expect) => {
     const actual = multiplyUtil(-5, 4);
     expect.equal(actual, expected);
 });
+///////////////////////////////////////////////////////////////////
 
 //divideUtils tests
 test('it should return 3.33 when provided with 10 and 3', (expect) => {

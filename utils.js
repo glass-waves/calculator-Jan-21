@@ -1,4 +1,6 @@
 //Math functions
+
+//addition
 export function addUtil(firstNumber, secondNumber) {
     const result = firstNumber + secondNumber;
     if (result % 1 === 0) {
@@ -9,6 +11,7 @@ export function addUtil(firstNumber, secondNumber) {
     
 }
 
+//subtraction
 export function subtractUtil(firstNumber, secondNumber) {
     const result = firstNumber - secondNumber;
     if (result % 1 === 0) {
@@ -18,6 +21,7 @@ export function subtractUtil(firstNumber, secondNumber) {
     }
 }
 
+//multiplication
 export function multiplyUtil(firstNumber, secondNumber) {
     const result = firstNumber * secondNumber;
     if (result % 1 === 0) {
@@ -27,6 +31,7 @@ export function multiplyUtil(firstNumber, secondNumber) {
     }
 }
 
+//division
 export function divideUtil(firstNumber, secondNumber) {
     const result = firstNumber / secondNumber;
     if (result % 1 === 0) {
