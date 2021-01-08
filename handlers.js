@@ -14,9 +14,6 @@ const input2 = document.getElementById('input-2');
 //output elements
 const resultBox = document.getElementById('result-box');
 const operatorBox = document.getElementById('operator-box');
-const errorBox = document.getElementById('error-box');
-
-const errorMessage = 'Please enter two numbers!';
 
 //click handler functions
 export function addClickHandler() {
