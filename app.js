@@ -6,6 +6,7 @@ const subtractButton = document.getElementById('subtract-button');
 const multiplyButton = document.getElementById('multiply-button');
 const divideButton = document.getElementById('divide-button');
 const resultBox = document.getElementById('result-box');
+const operatorBox = document.getElementById('operator-box');
 
 //verification
 // console.log(input1);
@@ -27,6 +28,8 @@ addButton.addEventListener('click', () => {
 
     const result = value1 + value2;
     resultBox.textContent = result;
+
+    operatorBox.textContent = '+';
 });
 
 //SUBTRACT
@@ -39,6 +42,8 @@ subtractButton.addEventListener('click', () => {
 
     const result = value1 - value2;
     resultBox.textContent = result;
+
+    operatorBox.textContent = '-';
 });
 
 //MULTIPLY
@@ -51,6 +56,8 @@ multiplyButton.addEventListener('click', () => {
 
     const result = value1 * value2;
     resultBox.textContent = result;
+
+    operatorBox.textContent = '*';
 });
 
 //DIVIDE
@@ -63,6 +70,8 @@ divideButton.addEventListener('click', () => {
 
     const result = value1 / value2;
     resultBox.textContent = result;
+
+    operatorBox.textContent = '/';
 });
 
     

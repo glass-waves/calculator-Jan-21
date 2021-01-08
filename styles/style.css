@@ -18,7 +18,50 @@ body, html {
 .calc-container {
     width: 50%;
     height: 50%;
+    background-color: burlywood;
+    text-align: center;
+    /* padding-top: 100px; */
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .inputs {
+    display: flex;
+
+} */
+input {
+    margin-bottom: 10px;
+}
+.operator-buttons {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:160px;
+    margin-bottom: 15px;
+}
+button {
+    margin: 3px;
+}
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+h2 {
+    margin-bottom: 15px;
+    font-family: 'Quicksand', sans-serif;
 }
 #result-box {
-    /* border: black solid 1px; */
+    border: black solid 1px;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    margin: 0 auto;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
 }

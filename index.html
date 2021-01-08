@@ -9,24 +9,31 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <div class="outer-container">
+        
         <div class="calc-container">
-            <input id="input-1" type="number">
-            <span>+</span>
-            <input id="input-2" type="number">
+            <h1>Calculator</h1>
+            <h2>Enter numbers to be calculated and press operator button to complete calculation.</h2>
+            <div class='inputs'>
+                <input id="input-1" type="number">
+                <span id="operator-box">+</span>
+                <input id="input-2" type="number">
+            </div>
             <!-- <button id="add-button">Add!</button> -->
-            <span>=</span>
-            <span id="result-box"></span>
             <div class="operator-buttons">
                 <button id="add-button">Add</button>
                 <button id="subtract-button">Subtract</button>
                 <button id="multiply-button">Multiply</button>
                 <button id="divide-button">Divide</button>
             </div>
+            <p>RESULT:</p>
+            <p id="result-box"></p>
         </div>
 
         
